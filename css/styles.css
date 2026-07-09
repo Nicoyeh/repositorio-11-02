@@ -1,0 +1,468 @@
+/* =====================================================================
+   BIBLIOTECA DIGITAL 11-02 — Colegio Loperena
+   Hoja de estilos — organizada por secciones para fácil mantenimiento
+   ===================================================================== */
+
+/* ---------- 1. TOKENS ---------- */
+:root{
+  /* paleta institucional: azules, verdes, beige, blanco */
+  --bg:            #F6F4EF;
+  --surface:       #FFFFFF;
+  --surface-soft:  #EFEDE4;
+  --line:          #E3DFD3;
+
+  --ink:           #1F2D3D;
+  --ink-soft:      #5B6B7F;
+  --ink-faint:     #8A93A3;
+
+  --primary:       #2F6690;
+  --primary-dark:  #234A69;
+  --primary-tint:  #DCEAF3;
+
+  --accent-green:  #4E8B67;
+  --accent-green-tint: #E1EFE5;
+
+  --current:       #C77D2C;
+  --current-tint:  #F7E7D3;
+
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+
+  --shadow-sm: 0 1px 2px rgba(31,45,61,.06), 0 1px 0 rgba(31,45,61,.04);
+  --shadow-md: 0 10px 24px -14px rgba(31,45,61,.28);
+  --shadow-lg: 0 22px 44px -20px rgba(31,45,61,.35);
+
+  --font-display:'Poppins', system-ui, sans-serif;
+  --font-body:'Inter', system-ui, sans-serif;
+}
+
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-body);
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{ font-family:var(--font-display); margin:0; }
+p{ margin:0; }
+button{ font-family:inherit; cursor:pointer; }
+a{ color:inherit; }
+ul{ list-style:none; margin:0; padding:0; }
+:focus-visible{ outline:3px solid var(--primary); outline-offset:2px; border-radius:6px; }
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
+}
+
+.wrap{ max-width:1180px; margin:0 auto; padding:0 24px; }
+.ic{ width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+.hidden{ display:none !important; }
+
+/* ---------- 2. HERO / PORTADA ---------- */
+.hero{
+  position:relative;
+  min-height:clamp(320px, 42vw, 460px);
+  display:flex;
+  align-items:flex-end;
+  overflow:hidden;
+  isolation:isolate;
+}
+.hero-media{
+  position:absolute; inset:0;
+  z-index:0;
+  background-image:
+    linear-gradient(160deg, rgba(35,74,105,.55) 0%, rgba(31,45,61,.72) 100%),
+    url('../assets/img/colegio.jpg');
+  background-size:cover;
+  background-position:center;
+  /* Degradado institucional de respaldo mientras se agrega la foto real */
+  background-color:#2C4A61;
+  background-image:
+    linear-gradient(160deg, rgba(35,74,105,.55) 0%, rgba(31,45,61,.72) 100%),
+    url('../assets/img/colegio.jpg'),
+    linear-gradient(135deg, #234A69 0%, #2F6690 45%, #4E8B67 100%);
+}
+.hero-overlay{
+  position:absolute; inset:0; z-index:1;
+  background:linear-gradient(to top, rgba(20,28,38,.55), rgba(20,28,38,0) 55%);
+}
+.hero-content{
+  position:relative; z-index:2;
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 24px 76px;
+  width:100%;
+  color:#fff;
+}
+.hero-eyebrow{
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:13px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#EAF1F7;
+  opacity:.85;
+  margin-bottom:10px;
+}
+.hero h1{
+  font-size:clamp(28px, 4.4vw, 44px);
+  font-weight:700;
+  line-height:1.12;
+  margin-bottom:14px;
+}
+.hero-subtitle{
+  max-width:560px;
+  font-size:16px;
+  line-height:1.6;
+  color:#EDF1F5;
+  font-style:italic;
+  font-weight:400;
+}
+
+/* ---------- 3. PANEL DE BÚSQUEDA (flotante sobre el hero) ---------- */
+.search-panel{
+  position:relative;
+  z-index:3;
+  margin-top:-46px;
+  background:var(--surface);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-lg);
+  border:1px solid var(--line);
+  padding:22px 24px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  align-items:center;
+}
+.search-field{
+  flex:1 1 280px;
+  display:flex; align-items:center; gap:10px;
+  background:var(--bg);
+  border:1.5px solid var(--line);
+  border-radius:999px;
+  padding:11px 16px;
+  transition:border-color .18s ease, box-shadow .18s ease;
+}
+.search-field:focus-within{
+  border-color:var(--primary);
+  box-shadow:0 0 0 4px var(--primary-tint);
+}
+.search-field .ic{ color:var(--ink-faint); }
+.search-field input{
+  flex:1;
+  border:none; outline:none; background:transparent;
+  font-family:var(--font-body); font-size:15px; color:var(--ink);
+}
+.search-field input::placeholder{ color:var(--ink-faint); }
+
+.search-filters{
+  display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+}
+.filter-select{
+  display:flex; flex-direction:column; gap:3px;
+  font-size:11.5px; font-weight:600; color:var(--ink-soft);
+  text-transform:uppercase; letter-spacing:.03em;
+}
+.filter-select select{
+  font-family:var(--font-body);
+  font-size:14px; font-weight:500; color:var(--ink);
+  background:var(--surface);
+  border:1.5px solid var(--line);
+  border-radius:var(--radius-sm);
+  padding:8px 10px;
+  min-width:150px;
+  cursor:pointer;
+  transition:border-color .18s ease;
+}
+.filter-select select:hover{ border-color:var(--primary); }
+
+.icon-btn{
+  border:none; background:var(--surface-soft); color:var(--ink-soft);
+  width:30px; height:30px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  transition:background .15s ease, color .15s ease;
+}
+.icon-btn:hover{ background:var(--primary-tint); color:var(--primary-dark); }
+
+.btn-ghost{
+  border:1.5px solid var(--line);
+  background:transparent;
+  color:var(--ink-soft);
+  border-radius:999px;
+  padding:9px 16px;
+  font-size:13.5px;
+  font-weight:600;
+  transition:all .18s ease;
+}
+.btn-ghost:hover{ border-color:var(--primary); color:var(--primary-dark); background:var(--primary-tint); }
+.btn-ghost.small{ padding:7px 14px; font-size:13px; }
+
+/* ---------- 4. MIGAS DE PAN ---------- */
+.breadcrumb{
+  display:flex; align-items:center; flex-wrap:wrap; gap:6px;
+  font-size:13.5px; color:var(--ink-soft);
+  margin:26px 0 6px;
+  min-height:20px;
+}
+.breadcrumb button{
+  display:flex; align-items:center; gap:5px;
+  background:none; border:none; color:var(--ink-soft);
+  font-family:var(--font-body); font-size:13.5px; font-weight:500;
+  padding:4px 6px; border-radius:8px;
+  transition:background .15s ease, color .15s ease;
+}
+.breadcrumb button:hover{ background:var(--surface-soft); color:var(--ink); }
+.breadcrumb .crumb-current{ color:var(--ink); font-weight:700; }
+.breadcrumb .sep{ color:var(--ink-faint); display:flex; }
+.breadcrumb .sep .ic{ width:14px; height:14px; }
+
+/* ---------- 5. TÍTULOS DE SECCIÓN ---------- */
+.section-title{
+  display:flex; align-items:baseline; gap:10px;
+  margin:34px 0 18px;
+}
+.section-title.small{ margin:30px 0 14px; }
+.section-title h2{ font-size:22px; font-weight:700; }
+.section-title h3{ font-size:17px; font-weight:700; }
+.section-title .count{
+  font-size:12.5px; font-weight:600; color:var(--ink-soft);
+  background:var(--surface-soft); padding:3px 11px; border-radius:999px;
+}
+
+/* ---------- 6. VISTAS (SPA) ---------- */
+.view{ display:none; }
+.view.active{ display:block; }
+
+/* ---------- 7. TARJETAS DE MATERIA ---------- */
+.subject-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(250px,1fr));
+  gap:18px;
+  padding-bottom:12px;
+}
+.subject-card{
+  position:relative;
+  background:var(--card-bg);
+  border:1px solid var(--line);
+  border-radius:var(--radius-md);
+  padding:22px;
+  display:flex; flex-direction:column; gap:14px;
+  box-shadow:var(--shadow-sm);
+  transition:transform .2s cubic-bezier(.2,.8,.3,1), box-shadow .2s ease, border-color .2s ease;
+}
+.subject-card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--shadow-md);
+  border-color:var(--card-tint, var(--primary));
+}
+.subject-card .sc-icon{
+  width:46px; height:46px;
+  border-radius:12px;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--card-tint-bg, var(--primary-tint));
+  color:var(--card-tint, var(--primary));
+}
+.subject-card .sc-icon .ic{ width:24px; height:24px; }
+.subject-card h3{ font-size:17px; font-weight:700; }
+.subject-card .sc-desc{ font-size:13.5px; color:var(--ink-soft); line-height:1.5; flex:1; }
+.subject-card .sc-footer{
+  display:flex; align-items:center; justify-content:space-between;
+  padding-top:6px; border-top:1px solid var(--line);
+  margin-top:2px;
+}
+.sc-count{ font-size:12px; color:var(--ink-faint); font-weight:600; }
+.btn-enter{
+  display:flex; align-items:center; gap:6px;
+  background:none; border:none;
+  font-size:13.5px; font-weight:700; color:var(--card-tint, var(--primary));
+  padding:6px 4px;
+  transition:gap .18s ease;
+}
+.btn-enter:hover{ gap:10px; }
+.btn-enter .ic{ width:15px; height:15px; }
+
+/* Tarjetas azules */
+.subject-card:nth-child(odd){
+    --card-bg:#92c8e3;
+}
+
+/* Tarjetas verdes */
+.subject-card:nth-child(even){
+    --card-bg:#9dde93da;
+}
+
+/* ---------- 8. ENCABEZADO DE ENTIDAD (materia / carpeta) ---------- */
+.btn-back{
+  display:inline-flex; align-items:center; gap:7px;
+  background:var(--surface); border:1.5px solid var(--line);
+  border-radius:999px; padding:8px 16px 8px 12px;
+  font-size:13.5px; font-weight:600; color:var(--ink-soft);
+  margin-top:6px;
+  transition:all .18s ease;
+}
+.btn-back:hover{ border-color:var(--primary); color:var(--primary-dark); background:var(--primary-tint); }
+
+.entity-header{
+  display:flex; align-items:center; gap:16px;
+  margin:20px 0 4px;
+}
+.entity-icon{
+  width:58px; height:58px; border-radius:16px;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--card-tint-bg, var(--primary-tint));
+  color:var(--card-tint, var(--primary));
+  flex-shrink:0;
+}
+.entity-icon .ic{ width:28px; height:28px; }
+.entity-header h2{ font-size:25px; font-weight:700; }
+.entity-desc{ font-size:13.5px; color:var(--ink-soft); margin-top:3px; }
+
+/* ---------- 9. CARPETAS ---------- */
+.folder-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(210px,1fr));
+  gap:16px;
+}
+.folder-card{
+  display:flex; align-items:center; gap:14px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius-md);
+  padding:18px;
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.folder-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow-md);
+  border-color:var(--card-tint, var(--primary));
+}
+.folder-card .fc-icon{
+  width:42px; height:42px; border-radius:11px;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--card-tint-bg, var(--primary-tint));
+  color:var(--card-tint, var(--primary));
+  flex-shrink:0;
+}
+.folder-card .fc-icon .ic{ width:21px; height:21px; }
+.folder-card .fc-name{ font-size:15px; font-weight:700; text-align:left; }
+.folder-card .fc-count{ font-size:12px; color:var(--ink-faint); margin-top:2px; }
+
+/* ---------- 10. PESTAÑAS DE PERÍODO ---------- */
+.period-tabs{
+  display:flex; gap:8px; flex-wrap:wrap;
+  margin:24px 0 22px;
+}
+.period-tab{
+  position:relative;
+  display:flex; align-items:center; gap:8px;
+  background:var(--surface);
+  border:1.5px solid var(--line);
+  border-radius:999px;
+  padding:9px 16px;
+  font-weight:600; font-size:13.5px; color:var(--ink-soft);
+  transition:all .18s ease;
+}
+.period-tab .badge{
+  font-size:11px; font-weight:700;
+  background:var(--surface-soft); color:var(--ink-soft);
+  border-radius:999px; padding:1px 7px;
+}
+.period-tab.active{
+  background:var(--primary); border-color:var(--primary); color:#fff;
+}
+.period-tab.active .badge{ background:rgba(255,255,255,.22); color:#fff; }
+.period-tab.is-current:not(.active){ border-color:var(--current); color:var(--current); }
+.period-tab.is-current:not(.active) .badge{ background:var(--current-tint); color:var(--current); }
+.period-tab .tag-current{
+  font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
+  background:var(--current); color:#5f8b4d; border-radius:999px; padding:2px 7px;
+}
+.period-tab.active .tag-current{ background:rgba(255,255,255,.25); }
+
+/* ---------- 11. TARJETAS DE DOCUMENTO ---------- */
+.doc-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(270px,1fr));
+  gap:14px;
+}
+.doc-card{
+  display:flex; flex-direction:column; gap:12px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius-md);
+  padding:18px;
+  transition:box-shadow .18s ease, border-color .18s ease;
+}
+.doc-card:hover{ box-shadow:var(--shadow-md); border-color:var(--primary); }
+.doc-top{ display:flex; align-items:flex-start; gap:12px; }
+.doc-pdf-icon{
+  width:38px; height:38px; border-radius:10px;
+  background:#FBEAE8; color:#C24A3B;
+  display:flex; align-items:center; justify-content:center;
+  flex-shrink:0;
+}
+.doc-pdf-icon .ic{ width:19px; height:19px; }
+.doc-title{ font-size:14.5px; font-weight:700; line-height:1.35; }
+.doc-meta-list{
+  display:flex; flex-wrap:wrap; gap:6px 10px;
+  font-size:12px; color:var(--ink-soft);
+}
+.doc-meta-list span{ display:flex; align-items:center; gap:4px; }
+.doc-meta-list .ic{ width:13px; height:13px; color:var(--ink-faint); }
+.doc-actions{ display:flex; gap:8px; margin-top:2px; }
+.doc-btn{
+  flex:1;
+  display:flex; align-items:center; justify-content:center; gap:6px;
+  border:1.5px solid var(--line);
+  background:var(--surface);
+  border-radius:var(--radius-sm);
+  padding:9px 10px;
+  font-size:13px; font-weight:700; color:var(--ink);
+  text-decoration:none;
+  transition:all .16s ease;
+}
+.doc-btn .ic{ width:15px; height:15px; }
+.doc-btn.primary{ background:var(--primary); border-color:var(--primary); color:#fff; }
+.doc-btn.primary:hover{ background:var(--primary-dark); }
+.doc-btn:not(.primary):hover{ border-color:var(--primary); color:var(--primary-dark); background:var(--primary-tint); }
+
+/* ---------- 12. ESTADO VACÍO ---------- */
+.empty-state{
+  grid-column:1 / -1;
+  border:1.5px dashed var(--line);
+  border-radius:var(--radius-md);
+  padding:38px 20px;
+  text-align:center;
+  color:var(--ink-soft);
+  font-size:14px;
+  line-height:1.6;
+  background:var(--surface-soft);
+}
+.empty-state .ee-icon{
+  width:34px; height:34px; margin:0 auto 10px;
+  color:var(--ink-faint);
+}
+
+/* ---------- 13. PIE DE PÁGINA ---------- */
+.site-footer{
+  margin-top:64px;
+  padding:24px 0 44px;
+  border-top:1px solid var(--line);
+  color:var(--ink-faint);
+  font-size:12.5px;
+  text-align:center;
+}
+
+/* ---------- 14. RESPONSIVE ---------- */
+@media (max-width:720px){
+  .search-panel{ flex-direction:column; align-items:stretch; padding:18px; }
+  .search-filters{ justify-content:space-between; }
+  .filter-select select{ min-width:0; width:100%; }
+  .hero-content{ padding-bottom:64px; }
+}
+@media (max-width:480px){
+  .doc-actions{ flex-direction:column; }
+  .subject-grid, .folder-grid, .doc-grid{ grid-template-columns:1fr; }
+}
