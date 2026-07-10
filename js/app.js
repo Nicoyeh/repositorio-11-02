@@ -1,5 +1,5 @@
 /* =====================================================================
-   BIBLIOTECA DIGITAL DE 11-02 — Colegio Loperena
+   PORTAFOLIO DE 11-02 — Colegio Loperena
    app.js — JavaScript Vanilla, sin frameworks
    Organizado en: ICONOS · DATOS · ESTADO · RENDER · EVENTOS
    ===================================================================== */
@@ -60,17 +60,17 @@ const FOLDER_TYPES = {
 // Materias activas: solo las administradas por esta biblioteca
 // (Arte y Tecnología usan plataformas externas y no aparecen aquí).
 const SUBJECTS = [
-  { id:'calculo',     name:'Cálculo',     icon:'calculo',     color:'#0b66ab', tint:'#DCEAF3', desc:'Funciones, derivadas, integrales y más.',      folders:['Guías','Talleres','Exámenes corregidos','Diapositivas'] },
-  { id:'sociales',    name:'Sociales',    icon:'sociales',    color:'#4E8B67', tint:'#E1EFE5', desc:'Historia, geografía y sociedad.',               folders:['Guías','Exámenes corregidos'] },
-  { id:'economia',    name:'Economía',    icon:'economia',    color:'#35618C', tint:'#DCE8F0', desc:'Fundamentos de mercado y finanzas.',            folders:['Guías','Exámenes corregidos'] },
-  { id:'ingles',      name:'Inglés',      icon:'ingles',      color:'#5C8D89', tint:'#E1EEEC', desc:'Comprensión y práctica del idioma.',            folders:['Exámenes corregidos'] },
-  { id:'filosofia',   name:'Filosofía',   icon:'filosofia',   color:'#435B66', tint:'#E2E7E9', desc:'Pensamiento crítico y ética.',                  folders:['Guías'] },
-  { id:'deporte',     name:'Deporte',     icon:'deporte',     color:'#7A9E7E', tint:'#E7EFE3', desc:'Educación física y bienestar.',                 folders:['Guías'] },
-  { id:'lenguaje',    name:'Lenguaje',    icon:'lenguaje',    color:'#3E6B8A', tint:'#DEE9F0', desc:'Comprensión lectora y escritura.',              folders:['Guías','Exámenes corregidos'] },
+  { id:'calculo',     name:'Cálculo',     icon:'calculo',     color:'#ab0b0b', tint:'#DCEAF3', desc:'Funciones, derivadas, integrales y más.',      folders:['Guías','Talleres','Exámenes corregidos','Diapositivas'] },
+  { id:'sociales',    name:'Sociales',    icon:'sociales',    color:'#364777', tint:'#E1EFE5', desc:'Historia, geografía y sociedad.',               folders:['Guías','Exámenes corregidos'] },
+  { id:'economia',    name:'Economía',    icon:'economia',    color:'#216b65', tint:'#DCE8F0', desc:'Fundamentos de mercado y finanzas.',            folders:['Guías','Exámenes corregidos'] },
+  { id:'ingles',      name:'Inglés',      icon:'ingles',      color:'#fa6e02df', tint:'#E1EEEC', desc:'Comprensión y práctica del idioma.',            folders:['Exámenes corregidos'] },
+  { id:'filosofia',   name:'Filosofía',   icon:'filosofia',   color:'#150b9a', tint:'#E2E7E9', desc:'Pensamiento crítico y ética.',                  folders:['Guías'] },
+  { id:'deporte',     name:'Deporte',     icon:'deporte',     color:'#2b0331', tint:'#E7EFE3', desc:'Educación física y bienestar.',                 folders:['Guías'] },
+  { id:'lenguaje',    name:'Lenguaje',    icon:'lenguaje',    color:'#59063a', tint:'#DEE9F0', desc:'Comprensión lectora y escritura.',              folders:['Guías','Exámenes corregidos'] },
   { id:'quimica',     name:'Química',     icon:'quimica',     color:'#4F8A6D', tint:'#E1EFE6', desc:'Reacciones, elementos y laboratorio.',          folders:['Guías','Exámenes corregidos'] },
-  { id:'estadistica', name:'Estadística', icon:'estadistica', color:'#35618C', tint:'#DCE8F0', desc:'Datos, probabilidad y análisis.',               folders:['Talleres','Guías','Exámenes corregidos'] },
-  { id:'fisica',      name:'Física',      icon:'fisica',      color:'#4A7C9E', tint:'#DFEBF2', desc:'Movimiento, energía y materia.',                folders:['Guías','Exámenes corregidos'] },
-  { id:'biologia',    name:'Biología',    icon:'biologia',    color:'#5A9178', tint:'#E3F0E8', desc:'Célula, genética y vida.',                      folders:['Guías','Exámenes corregidos'] },
+  { id:'estadistica', name:'Estadística', icon:'estadistica', color:'#b08e12', tint:'#DCE8F0', desc:'Datos, probabilidad y análisis.',               folders:['Talleres','Guías','Exámenes corregidos'] },
+  { id:'fisica',      name:'Física',      icon:'fisica',      color:'#7b850c', tint:'#DFEBF2', desc:'Movimiento, energía y materia.',                folders:['Guías','Exámenes corregidos'] },
+  { id:'biologia',    name:'Biología',    icon:'biologia',    color:'#44cd0e', tint:'#E3F0E8', desc:'Célula, genética y vida.',                      folders:['Guías','Exámenes corregidos'] },
 ];
 
 // DOCUMENTOS: para agregar uno nuevo copia un objeto y cambia sus datos.
