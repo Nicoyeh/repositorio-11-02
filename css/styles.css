@@ -285,12 +285,12 @@ ul{ list-style:none; margin:0; padding:0; }
 
 /* Tarjetas azules */
 .subject-card:nth-child(odd){
-    --card-bg:#92c8e3;
+    --card-bg:#6fd6da;
 }
 
 /* Tarjetas verdes */
 .subject-card:nth-child(even){
-    --card-bg:#9dde93da;
+    --card-bg:#9be371da;
 }
 
 /* ---------- 8. ENCABEZADO DE ENTIDAD (materia / carpeta) ---------- */
@@ -399,7 +399,7 @@ ul{ list-style:none; margin:0; padding:0; }
 .doc-top{ display:flex; align-items:flex-start; gap:12px; }
 .doc-pdf-icon{
   width:38px; height:38px; border-radius:10px;
-  background:#FBEAE8; color:#C24A3B;
+  background:#ddca8d; color:#cd412f;
   display:flex; align-items:center; justify-content:center;
   flex-shrink:0;
 }
