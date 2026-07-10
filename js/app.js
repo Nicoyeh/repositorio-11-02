@@ -82,7 +82,7 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Exámenes corregidos',  period:'Periodo 3', title:'',     date:'2026-06-15', file:'assets/pdf/Calculo/Examenes/Periodo-3/examen-funciones.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites',          date:'2026-06-02', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Limite_Euler.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Número al infinito (Euler)',       date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Numero_al_infinito_euler.pdf'},
-  
+  { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del arte',            date:'2026-07-15', file:'assets/pdf/Filosofia/Guías/Periodo-3/Filosofia_del_arte.pdf'},
 ];
 
 /* =====================================================================
