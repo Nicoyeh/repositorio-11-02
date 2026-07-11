@@ -82,6 +82,13 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites',          date:'2026-07-06', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Limite_Euler.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Número al infinito (Euler)',       date:'2026-07-06', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Numero_al_infinito_euler.pdf'},
   { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del arte',            date:'2026-07-10', file:'assets/pdf/Filosofia/Guías/Periodo-3/Filosofia-del-arte.pdf'},
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de euler',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-euler.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites con razones trigonométricas',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-senocoseno.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de exponenciales y trigonométricos',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites_trigonometricos_y_exponenciales.pdf' },
+  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guías de límites de funciones trigonométricas',          date:'2026-07-08', file:'assets/pdf/Calculo/Guías/Periodo-3/limite-de-funciones-trigonometricas-exponenciales-y-logaritmica.pdf' },
+  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Ondas',            date:'2026-07-10', file:'assets/pdf/Fisica/Guías/Periodo-3/guia-#13-ondas.pdf'},
+
+
 ];
 
 /* =====================================================================
