@@ -188,6 +188,9 @@ function renderSubjectView(){
   $('#folderGrid').innerHTML = s.folders.map(f => {
     const meta = FOLDER_TYPES[f] || { icon:'folder' };
     const count = DOCUMENTS.filter(d => d.subject===s.id && d.folder===f).length;
+    console.log("Materia:", s.id);
+    console.log("Carpeta:", f);
+    console.log("Documentos:", DOCUMENTS);
     return `
       <button class="folder-card" style="${cardVars(s)}" onclick="openFolder('${f}')">
         <div class="fc-icon">${icon(meta.icon)}</div>
