@@ -79,18 +79,18 @@ const SUBJECTS = [
 // quedan ubicados ahí; Periodo 1, 2 y 4 quedan listos y vacíos.
 const DOCUMENTS = [
   
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites',          date:'2026-07-06', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Limite_Euler.pdf' },
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Número al infinito (Euler)',       date:'2026-07-06', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Numero_al_infinito_euler.pdf'},
-  { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del arte',            date:'2026-07-10', file:'assets/pdf/Filosofia/Guías/Periodo-3/Filosofia-del-arte.pdf'},
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de euler',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-euler.pdf' },
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites con razones trigonométricas',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-senocoseno.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites',          file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Limite_Euler.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Número al infinito (Euler)',        file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Numero_al_infinito_euler.pdf'},
+  { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del arte',            file:'assets/pdf/Filosofia/Guías/Periodo-3/Filosofia-del-arte.pdf'},
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de euler',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-euler.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites con razones trigonométricas',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-senocoseno.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de exponenciales y trigonométricos',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites_trigonometricos_y_exponenciales.pdf' },
-  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guías de límites de funciones trigonométricas',          date:'2026-07-08', file:'assets/pdf/Calculo/Guías/Periodo-3/limite-de-funciones-trigonometricas-exponenciales-y-logaritmica.pdf' },
-  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'ondas',            date:'2026-07-10', file:'assets/pdf/Fisica/Guías/Periodo-3/ondas.pdf'},
-  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Acustica(sonido)',            date:'2026-07-9', file:'assets/pdf/Fisica/Guías/Periodo-3/guia-14-acustica.pdf'},
-  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Acustica(cuerdas y efecto doppler)',            date:'2026-07-9', file:'assets/pdf/Fisica/Guías/Periodo-3/guia-15-acustica-cuerdas.pdf'},
-  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica',            date:'2026-07-10', file:'assets/pdf/Fisica/Guías/Periodo-3/guia-16-optica.pdf'},
-  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica(luz)',            date:'2026-07-10', file:'assets/pdf/Fisica/Guías/Periodo-3/guia-17-optica-luz.pdf'},
+  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guías de límites de funciones trigonométricas',           file:'assets/pdf/Calculo/Guías/Periodo-3/limite-de-funciones-trigonometricas-exponenciales-y-logaritmica.pdf' },
+  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'ondas',             file:'assets/pdf/Fisica/Guías/Periodo-3/ondas.pdf'},
+  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Acustica(sonido)',           file:'assets/pdf/Fisica/Guías/Periodo-3/guia-14-acustica.pdf'},
+  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Acustica(cuerdas y efecto doppler)',            file:'assets/pdf/Fisica/Guías/Periodo-3/guia-15-acustica-cuerdas.pdf'},
+  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica',            file:'assets/pdf/Fisica/Guías/Periodo-3/guia-16-optica.pdf'},
+  { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica(luz)',             file:'assets/pdf/Fisica/Guías/Periodo-3/guia-17-optica-luz.pdf'},
 
 
 ];
