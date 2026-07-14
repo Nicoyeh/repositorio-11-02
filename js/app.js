@@ -84,7 +84,7 @@ const DOCUMENTS = [
   { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del arte',            file:'assets/pdf/Filosofia/Guías/Periodo-3/Filosofia-del-arte.pdf'},
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de euler',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-euler.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites con razones trigonométricas',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-senocoseno.pdf' },
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de exponenciales y trigonométricos',          date:'2026-07-08', file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites_trigonometricos_y_exponenciales.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de exponenciales y trigonométricos',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites_trigonometricos_y_exponenciales.pdf' },
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guías de límites de funciones trigonométricas',           file:'assets/pdf/Calculo/Guías/Periodo-3/limite-de-funciones-trigonometricas-exponenciales-y-logaritmica.pdf' },
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'ondas',             file:'assets/pdf/Fisica/Guías/Periodo-3/ondas.pdf'},
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Acustica(sonido)',           file:'assets/pdf/Fisica/Guías/Periodo-3/guia-14-acustica.pdf'},
@@ -100,8 +100,8 @@ const DOCUMENTS = [
    ===================================================================== */
 const state = { subjectId:null, folder:null, period:PERIODS[CURRENT_PERIOD_INDEX] };
 const $ = sel => document.querySelector(sel);
+
 const subjectById = id => SUBJECTS.find(s => s.id === id);
-const fmtDate = iso => new Date(iso + 'T00:00:00').toLocaleDateString('es-CO', { day:'numeric', month:'short', year:'numeric' });
 
 function cardVars(s){ return `--card-tint:${s.color};--card-tint-bg:${s.tint};`; }
 
@@ -269,7 +269,6 @@ function renderDocGrid(selector, docs, opts){
         <div class="doc-meta-list">
           <span>${icon('folder')} ${s.name}</span>
           <span>${icon('fileText')} ${d.folder}</span>
-          <span>${icon('calendar')} ${fmtDate(d.date)}</span>
         </div>
         <div class="doc-actions">
           <a class="doc-btn primary" href="${d.file}" target="_blank" rel="noopener">${icon('eye')} Ver</a>
