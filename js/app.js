@@ -91,7 +91,7 @@ const DOCUMENTS = [
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Acustica(cuerdas y efecto doppler)',            file:'assets/pdf/Fisica/Guías/Periodo-3/guia-15-acustica-cuerdas.pdf'},
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica',            file:'assets/pdf/Fisica/Guías/Periodo-3/guia-16-optica.pdf'},
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica(luz)',             file:'assets/pdf/Fisica/Guías/Periodo-3/guia-17-optica-luz.pdf'},
-  { subject:'Economia',      folder:'Guías',                period:'Periodo 3', title:'Crecimiento económico y conservación del medio ambiente',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-ambientales-sociales(guia1).pdf'},
+  { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Crecimiento económico y conservación del medio ambiente',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-ambientales-sociales(guia1).pdf'},
 
 
 ];
