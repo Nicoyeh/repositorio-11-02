@@ -92,6 +92,10 @@ const DOCUMENTS = [
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica',            file:'assets/pdf/Fisica/Guías/Periodo-3/guia-16-optica.pdf'},
   { subject:'fisica',      folder:'Guías',                period:'Periodo 3', title:'Optica(luz)',             file:'assets/pdf/Fisica/Guías/Periodo-3/guia-17-optica-luz.pdf'},
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Crecimiento económico y conservación del medio ambiente',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-ambientales-sociales(guia1).pdf'},
+  { subject:'calculo',      folder:'Talleres',                period:'Periodo 3', title:'Taller de límites',             file:'assets/pdf/Calculo/Talleres/Periodo-3/taller-limites.pdf'},
+  { subject:'fisica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen #1 ondas',             file:'assets/pdf/Fisica/Exámenes corregidos/Periodo-3/ondas1.pdf'},
+  { subject:'quimica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Nomenclatura orgánica',             file:'assets/pdf/Quimica/Exámenes corregidos/Periodo-3/examen-nomenclatura-organica.pdf'},
+  { subject:'biologia',      folder:'Guías',                period:'Periodo 3', title:'metabolismo celular',             file:'assets/pdf/Biologia/Guías/Periodo-3/metabolismo-celular.pdf'},
 
 
 ];
