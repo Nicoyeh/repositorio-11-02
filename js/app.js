@@ -96,6 +96,7 @@ const DOCUMENTS = [
   { subject:'fisica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen #1 ondas',             file:'assets/pdf/Fisica/Exámenes corregidos/Periodo-3/ondas1.pdf'},
   { subject:'quimica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Nomenclatura orgánica',             file:'assets/pdf/Quimica/Exámenes corregidos/Periodo-3/examen-nomenclatura-organica.pdf'},
   { subject:'biologia',      folder:'Guías',                period:'Periodo 3', title:'metabolismo celular',             file:'assets/pdf/Biologia/Guías/Periodo-3/metabolismo-celular.pdf'},
+  { subject:'sociales',      folder:'Guías',                period:'Periodo 3', title:'El Intervencionismo de Naciones Desarrolladas',             file:'assets/pdf/Sociales/Guías/Periodo-3/intervencionismo.pdf'},
 
 
 ];
