@@ -101,7 +101,7 @@ const DOCUMENTS = [
   { subject:'lenguaje',      folder:'Guías',                period:'Periodo 3', title:'Literatura del Renacimiento',             file:'assets/pdf/Lenguaje/Guías/Periodo-3/renacimiento.pdf'},
   { subject:'quimica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Nomenclatura orgánica Examen #2',             file:'assets/pdf/Quimica/Exámenes corregidos/Periodo-3/nomenclatura-organica-2.pdf'},
   { subject:'fisica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen #2 ondas',             file:'assets/pdf/Fisica/Exámenes corregidos/Periodo-3/examen-2-ondas.pdf'},
-  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Limite y continuidad',           file:'assets/pdf/Calculo/Guías/Periodo-3/limite-y-contunuidad.pdf' },
+  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Limite y continuidad',           file:'assets/pdf/Calculo/Guías/Periodo-3/limite-y-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de limites y continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limite-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Analisis continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Discontinuidades',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/discontinuidades.pdf' },
