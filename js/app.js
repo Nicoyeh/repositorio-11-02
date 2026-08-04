@@ -112,6 +112,7 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de anatomia de discontinuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/anatomia-discontinuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de anatomia de indeterminacion',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/anatomia-indeterminacion.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de taller de continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/taller-continuidad.pdf' },
+  { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Teorema de Bayes',           file:'assets/pdf/Estadistica/Guías/Periodo-3/teorema-de-bayes.pdf' },
 
 
 
