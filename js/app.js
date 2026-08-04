@@ -105,6 +105,7 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de limites y continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limite-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Analisis continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Discontinuidades',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/discontinuidades.pdf' },
+  { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del lenguaje',            file:'assets/pdf/Filosofia/Guías/Periodo-3/filosofia-del-lenguaje.pdf'},
 
 
 
