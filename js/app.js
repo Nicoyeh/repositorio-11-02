@@ -107,6 +107,7 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Discontinuidades',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/discontinuidades.pdf' },
   { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del lenguaje',            file:'assets/pdf/Filosofia/Guías/Periodo-3/filosofia-del-lenguaje.pdf'},
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/guia#2-problemas-sociales-ciudades.pdf'},
+  { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Estado y sostenibilidad: Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-sociales.pdf'},
 
 
 
