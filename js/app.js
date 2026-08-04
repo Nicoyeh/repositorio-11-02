@@ -80,7 +80,7 @@ const SUBJECTS = [
 const DOCUMENTS = [
   
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites',          file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Limite_Euler.pdf' },
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Número al infinito (Euler)',        file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Numero_al_infinito_euler.pdf'},
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de número al infinito (Euler)',        file:'assets/pdf/Calculo/Diapositivas/Periodo-3/Numero_al_infinito_euler.pdf'},
   { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del arte',            file:'assets/pdf/Filosofia/Guías/Periodo-3/Filosofia-del-arte.pdf'},
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites de euler',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-euler.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de límites con razones trigonométricas',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-senocoseno.pdf' },
@@ -103,11 +103,15 @@ const DOCUMENTS = [
   { subject:'fisica',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen #2 ondas',             file:'assets/pdf/Fisica/Exámenes corregidos/Periodo-3/examen-2-ondas.pdf'},
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Limite y continuidad',           file:'assets/pdf/Calculo/Guías/Periodo-3/limite-y-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de limites y continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limite-continuidad.pdf' },
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Analisis continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad.pdf' },
-  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Discontinuidades',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/discontinuidades.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de analisis continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de discontinuidades',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/discontinuidades.pdf' },
   { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del lenguaje',            file:'assets/pdf/Filosofia/Guías/Periodo-3/filosofia-del-lenguaje.pdf'},
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/guia#2-problemas-sociales-ciudades.pdf'},
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Estado y sostenibilidad: Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-sociales.pdf'},
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de analisis de continuidad #2',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad-#2.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de anatomia de discontinuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/anatomia-discontinuidad.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de anatomia de indeterminacion',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/anatomia-indeterminacion.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de taller de continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/taller-continuidad.pdf' },
 
 
 
