@@ -106,13 +106,13 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de analisis continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de discontinuidades',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/discontinuidades.pdf' },
   { subject:'filosofia',   folder:'Guías',                period:'Periodo 3', title:'Filosofia del lenguaje',            file:'assets/pdf/Filosofia/Guías/Periodo-3/filosofia-del-lenguaje.pdf'},
-  { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/guia#2-problemas-sociales-ciudades.pdf'},
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Estado y sostenibilidad: Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-sociales.pdf'},
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de analisis de continuidad #2',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-continuidad-#2.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de anatomia de discontinuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/anatomia-discontinuidad.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de anatomia de indeterminacion',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/anatomia-indeterminacion.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de taller de continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/taller-continuidad.pdf' },
   { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Teorema de Bayes',           file:'assets/pdf/Estadistica/Guías/Periodo-3/teorema-de-bayes.pdf' },
+  { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Guía #2: Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-sociales-2.pdf'},
 
 
 
