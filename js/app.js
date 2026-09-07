@@ -115,9 +115,10 @@ const DOCUMENTS = [
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Guía #2: Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-sociales-2.pdf'},
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia Derivadas',           file:'assets/pdf/Calculo/Guías/Periodo-3/guia-derivada.pdf' },
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia De limites laterales',           file:'assets/pdf/Calculo/Guías/Periodo-3/limites-laterales.pdf' },
+  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia de Limites Trigonometricos ',           file:'assets/pdf/Calculo/Guías/Periodo-3/limites-trigo.pdf' },
 
 
-
+  
 ];
 
 /* =====================================================================
