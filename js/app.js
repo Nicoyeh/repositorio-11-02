@@ -116,6 +116,9 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia Derivadas',           file:'assets/pdf/Calculo/Guías/Periodo-3/guia-derivada.pdf' },
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia De limites laterales',           file:'assets/pdf/Calculo/Guías/Periodo-3/limites-laterales.pdf' },
   { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia de Limites Trigonometricos ',           file:'assets/pdf/Calculo/Guías/Periodo-3/limites-trigo.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de derivadas',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/diapositivas-derivadas.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de analisis de limites laterales',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-limites-laterales.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de limites laterales #2',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-laterales#2.pdf' },
 
 
   
