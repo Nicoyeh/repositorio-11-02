@@ -123,6 +123,8 @@ const DOCUMENTS = [
   { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Probabilidad Compuesta',           file:'assets/pdf/Estadistica/Guías/Periodo-3/probabilidad-compuesta.pdf' },
   { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Distribucion Binomial',           file:'assets/pdf/Estadistica/Guías/Periodo-3/distribucion-binomial.pdf' },
   { subject:'estadistica',     folder:'Exámenes corregidos',         period:'Periodo 3', title:'Examen de probabilidad condicional y teorema de Bayes',           file:'assets/pdf/Estadistica/Exámenes corregidos/Periodo-3/examen-p-condicional-bayes.pdf' },
+  { subject:'ingles',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen de Voz pasiva',             file:'assets/pdf/Ingles/Exámenes corregidos/Periodo-3/examen-vozpasiva.pdf'},
+  { subject:'ingles',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen de Vocabulario Crime',             file:'assets/pdf/Ingles/Exámenes corregidos/Periodo-3/examen-crime.pdf'},
 
 
   
