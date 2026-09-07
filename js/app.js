@@ -113,6 +113,8 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de taller de continuidad',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/taller-continuidad.pdf' },
   { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Teorema de Bayes',           file:'assets/pdf/Estadistica/Guías/Periodo-3/teorema-de-bayes.pdf' },
   { subject:'economia',      folder:'Guías',                period:'Periodo 3', title:'Guía #2: Problemas sociales en las ciudades',             file:'assets/pdf/Economia/Guías/Periodo-3/problemas-sociales-2.pdf'},
+  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia Derivadas',           file:'assets/pdf/Calculo/Guías/Periodo-3/guia-derivada.pdf' },
+  { subject:'calculo',     folder:'Guías',                period:'Periodo 3', title:'Guia De limites laterales',           file:'assets/pdf/Calculo/Guías/Periodo-3/limites-laterales.pdf' },
 
 
 
