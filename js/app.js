@@ -120,6 +120,8 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de analisis de limites laterales',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/analisis-limites-laterales.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 3', title:'Diapositivas de limites laterales #2',           file:'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-laterales#2.pdf' },
   { subject:'lenguaje',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Crucigrama de renacimiento',             file:'assets/pdf/Lenguaje/Exámenes corregidos/Periodo-3/crucirenacimiento.pdf'},
+  { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Probabilidad Compuesta',           file:'assets/pdf/Estadistica/Guías/Periodo-3/probabilidad-compuesta.pdf' },
+  { subject:'estadistica',     folder:'Guías',         period:'Periodo 3', title:'Distribucion Binomial',           file:'assets/pdf/Estadistica/Guías/Periodo-3/distribucion-binomial.pdf' },
 
 
   
