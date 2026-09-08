@@ -125,6 +125,7 @@ const DOCUMENTS = [
   { subject:'ingles',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen de Voz pasiva',             file:'assets/pdf/Ingles/Exámenes corregidos/Periodo-3/examen-vozpasiva.pdf'},
   { subject:'ingles',      folder:'Exámenes corregidos',                period:'Periodo 3', title:'Examen de Vocabulario Crime',             file:'assets/pdf/Ingles/Exámenes corregidos/Periodo-3/examen-crime.pdf'},
   { subject: 'calculo', folder: 'Diapositivas', period: 'Periodo 3', title: 'Diapositivas de analisis de limites laterales #2', file: 'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-laterales#2.pdf' },
+  { subject: 'calculo', folder: 'Exámenes corregidos', period: 'Periodo 3', title: 'Examen de limites', file: 'assets/pdf/Calculo/Exámenes corregidos/Periodo-3/examen-limites-corregido.pdf' },
 
   
 ];
