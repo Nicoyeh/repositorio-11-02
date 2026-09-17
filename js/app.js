@@ -127,6 +127,7 @@ const DOCUMENTS = [
   { subject: 'calculo', folder: 'Diapositivas', period: 'Periodo 3', title: 'Diapositivas de Limites Laterales #2', file: 'assets/pdf/Calculo/Diapositivas/Periodo-3/limites-laterales2.pdf' },
   { subject: 'calculo', folder: 'Exámenes corregidos', period: 'Periodo 3', title: 'Examen de limites', file: 'assets/pdf/Calculo/Exámenes corregidos/Periodo-3/examen-limites-corregido.pdf' },
   { subject:'calculo',      folder:'Talleres',                period:'Periodo 3', title:'Cuestionario De limites laterales',             file:'assets/pdf/Calculo/Talleres/Periodo-3/cuestionario-limiteslaterales.pdf'},
+  { subject:'lenguaje',      folder:'Guías',                period:'Periodo 4', title:'Realismo y Naturalismo',             file:'assets/pdf/Lenguaje/Guías/Periodo-4/realismo-naturalismo.pdf'},
 
   
 ];
