@@ -47,7 +47,7 @@ function icon(name, extraClass){
 // Períodos académicos del colegio. currentIndex indica cuál está activo
 // (0 = Periodo 1). Cámbialo cuando inicie un nuevo período.
 const PERIODS = ['Periodo 3', 'Periodo 4'];
-const CURRENT_PERIOD_INDEX = 0; // Periodo 3 = período actual
+const CURRENT_PERIOD_INDEX = 1; // Periodo 3 = período actual
 
 // Metadatos de cada tipo de carpeta (icono + nombre para mostrar)
 const FOLDER_TYPES = {
