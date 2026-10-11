@@ -134,6 +134,11 @@ const DOCUMENTS = [
   { subject:'biologia',      folder:'Guías',                period:'Periodo 4', title:'Crisis ambiental y cambio climático',             file:'assets/pdf/Biologia/Guias/Periodo-4/cambio-climatico.pdf'},
   { subject:'calculo',      folder:'Talleres',                period:'Periodo 4', title:'Taller de derivada: regla de la cadena',             file:'assets/pdf/Calculo/Talleress/Periodo-4/taller-regla-cadena.pdf'},
   { subject:'calculo',      folder:'Talleres',                period:'Periodo 4', title:'Taller Aplicación de la derivada',             file:'assets/pdf/Calculo/Talleress/Periodo-4/taller-derivada#2.pdf'},
+  { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Regla de la cadena',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivada-regla-de-cadena.pdf'},
+  { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Aplicaciones de derivada: Construcción de cajas',             file:'assets/pdf/Calculo/Guias/Periodo-4/cajas-derivada.pdf'},
+  { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'L Hopital :)',             file:'assets/pdf/Calculo/Guias/Periodo-4/l-hopital.pdf'},
+  { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Derivada de las funciones transcendentales',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivadas-f-trans.pdf'},
+  { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Derivada de las funciones exponenciales y logaritmicas',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivada-exponenciales-log.pdf'},
 
   
 ];
