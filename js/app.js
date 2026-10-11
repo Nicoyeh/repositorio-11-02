@@ -71,6 +71,8 @@ const SUBJECTS = [
   { id:'estadistica', name:'Estadística', icon:'estadistica', color:'#060428', tint:'#DCE8F0',  desc:'Datos, probabilidad y análisis.',               folders:['Talleres','Guías','Exámenes corregidos'] },
   { id:'fisica',      name:'Física',      icon:'fisica',      color:'#0e3c21', tint:'#DFEBF2', desc:'Movimiento, energía y materia.',                folders:['Guías','Exámenes corregidos'] },
   { id:'biologia',    name:'Biología',    icon:'biologia',    color:'#060428', tint:'#E3F0E8', desc:'Célula, genética y vida.',                      folders:['Guías','Exámenes corregidos'] },
+  { id:'arte',      name:'Arte',      icon:'arte',      color:'#0e3c21', tint:'#DFEBF2', desc:'Dibujo, color y expresión artística.',                folders:['Exámenes corregidos'] },
+
 ];
 
 // DOCUMENTOS: para agregar uno nuevo copia un objeto y cambia sus datos.
