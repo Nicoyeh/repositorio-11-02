@@ -132,7 +132,9 @@ const DOCUMENTS = [
   { subject:'calculo',      folder:'Talleres',                period:'Periodo 3', title:'Cuestionario De limites laterales',             file:'assets/pdf/Calculo/Talleres/Periodo-3/cuestionario-limiteslaterales.pdf'},
   { subject:'lenguaje',      folder:'Guías',                period:'Periodo 4', title:'Realismo y Naturalismo',             file:'assets/pdf/Lenguaje/Guias/Periodo-4/realismo-naturalismo.pdf'},
   { subject:'biologia',      folder:'Guías',                period:'Periodo 4', title:'Crisis ambiental y cambio climático',             file:'assets/pdf/Biologia/Guias/Periodo-4/cambio-climatico.pdf'},
-  
+  { subject:'calculo',      folder:'Talleres',                period:'Periodo 4', title:'Taller de derivada: regla de la cadena',             file:'assets/pdf/Calculo/Talleress/Periodo-4/taller-regla-cadena.pdf'},
+  { subject:'calculo',      folder:'Talleres',                period:'Periodo 4', title:'Taller Aplicación de la derivada',             file:'assets/pdf/Calculo/Talleress/Periodo-4/taller-derivada#2.pdf'},
+
   
 ];
 
