@@ -139,6 +139,7 @@ const DOCUMENTS = [
   { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'L Hopital :)',             file:'assets/pdf/Calculo/Guias/Periodo-4/l-hopital.pdf'},
   { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Derivada de las funciones transcendentales',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivadas-f-trans.pdf'},
   { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Derivada de las funciones exponenciales y logaritmicas',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivada-exponenciales-log.pdf'},
+  { subject:'calculo',      folder:'Talleres',                period:'Periodo 4', title:'Preguntas Icfes de derivadas',             file:'assets/pdf/Calculo/Talleress/Periodo-4/preguntas-derivada.pdf'},
 
   
 ];
