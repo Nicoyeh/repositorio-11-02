@@ -74,14 +74,14 @@ ul{ list-style:none; margin:0; padding:0; }
   z-index:0;
   background-image:
     linear-gradient(160deg, rgba(35,74,105,.55) 0%, rgba(31,45,61,.72) 100%),
-    url('../assets/img/promo.jpg');
+    url('../assets/img/promoo.png');
   background-size:cover;
   background-position:center;
   /* Degradado institucional de respaldo mientras se agrega la foto real */
   background-color:#471717;
   background-image:
     linear-gradient(160deg, rgba(0, 0, 0, 0.55) 0%, rgba(31,45,61,.72) 100%),
-    url('../assets/img/promo.jpg'),
+    url('../assets/img/promoo.png'),
     linear-gradient(135deg, #740707 0%, #660606 45%, #4E8B67 100%);
 }
 .hero-overlay{

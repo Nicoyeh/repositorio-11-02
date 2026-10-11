@@ -1,7 +1,7 @@
 Coloca aquí la fotografía del Colegio Loperena con el nombre exacto:
 
-    promo.jpg
-    /home/nicolle/Descargas/promo.jpg
+    promoo.png
+    /home/nicolle/Descargas/promoo.png
 
 En cuanto el archivo exista en esta carpeta, aparecerá automáticamente
 como fondo del banner principal — no es necesario cambiar nada más.
