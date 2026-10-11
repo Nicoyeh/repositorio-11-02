@@ -74,14 +74,14 @@ ul{ list-style:none; margin:0; padding:0; }
   z-index:0;
   background-image:
     linear-gradient(160deg, rgba(35,74,105,.55) 0%, rgba(31,45,61,.72) 100%),
-    url('../assets/img/colegio.jpg');
+    url('../assets/img/promo.jpg');
   background-size:cover;
   background-position:center;
   /* Degradado institucional de respaldo mientras se agrega la foto real */
   background-color:#471717;
   background-image:
     linear-gradient(160deg, rgba(0, 0, 0, 0.55) 0%, rgba(31,45,61,.72) 100%),
-    url('../assets/img/colegio.jpg'),
+    url('../assets/img/promo.jpg'),
     linear-gradient(135deg, #0e68b1 0%, #2F6690 45%, #4E8B67 100%);
 }
 .hero-overlay{
@@ -285,12 +285,12 @@ ul{ list-style:none; margin:0; padding:0; }
 
 /* Tarjetas azules */
 .subject-card:nth-child(odd){
-    --card-bg:#be0e23be;
+    --card-bg:#be0e239f;
 }
 
 /* Tarjetas verdes */
 .subject-card:nth-child(even){
-    --card-bg:#f5d395da;
+    --card-bg:#f7deb0da;
 }
 
 /* ---------- 8. ENCABEZADO DE ENTIDAD (materia / carpeta) ---------- */
