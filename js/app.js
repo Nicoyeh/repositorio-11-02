@@ -140,6 +140,12 @@ const DOCUMENTS = [
   { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Derivada de las funciones transcendentales',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivadas-f-trans.pdf'},
   { subject:'calculo',      folder:'Guías',                period:'Periodo 4', title:'Derivada de las funciones exponenciales y logaritmicas',             file:'assets/pdf/Calculo/Guias/Periodo-4/derivada-exponenciales-log.pdf'},
   { subject:'calculo',      folder:'Talleres',                period:'Periodo 4', title:'Preguntas Icfes de derivadas',             file:'assets/pdf/Calculo/Talleress/Periodo-4/preguntas-derivada.pdf'},
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas del número euler',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/euler.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de l hopital',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/diapo-lhopital.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de Graficas Derivadas',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/grafica-derivada.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de fundamentos en calculo diferencial',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/calculo-derivada.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de limite y continuidad',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/limite-continuidad-1.pdf' },
+  { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de Funciones Trascendentales',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/Derivadas_Trascendentales.pdf' },
 
   
 ];
