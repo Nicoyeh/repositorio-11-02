@@ -61,18 +61,18 @@ const FOLDER_TYPES = {
 // Materias activas: solo las administradas por esta biblioteca
 // (Arte y Tecnología usan plataformas externas y no aparecen aquí).
 const SUBJECTS = [
-  { id:'calculo',     name:'Cálculo',     icon:'calculo',     color:'#060428', tint:'#DCEAF3', desc:'Funciones, derivadas, integrales y más.',      folders:['Guías','Talleres','Exámenes corregidos','Diapositivas'] },
-  { id:'sociales',    name:'Sociales',    icon:'sociales',    color:'#0e3c21', tint:'#E1EFE5', desc:'Historia, geografía y sociedad.',               folders:['Guías','Exámenes corregidos'] },
-  { id:'economia',    name:'Economía',    icon:'economia',    color:'#060428', tint:'#DCE8F0', desc:'Fundamentos de mercado y finanzas.',            folders:['Guías','Exámenes corregidos'] },
-  { id:'ingles',      name:'Inglés',      icon:'ingles',      color:'#0e3c21', tint:'#E1EEEC', desc:'Comprensión y práctica del idioma.',            folders:['Exámenes corregidos'] },
-  { id:'filosofia',   name:'Filosofía',   icon:'filosofia',   color:'#060428', tint:'#E2E7E9', desc:'Pensamiento crítico y ética.',                  folders:['Guías'] },
-  { id:'deporte',     name:'Deporte',     icon:'deporte',     color:'#0e3c21', tint:'#E7EFE3', desc:'Educación física y bienestar.',                 folders:['Guías'] },
-  { id:'lenguaje',    name:'Lenguaje',    icon:'lenguaje',    color:'#060428', tint:'#DEE9F0', desc:'Comprensión lectora y escritura.',              folders:['Guías','Exámenes corregidos'] },
-  { id:'quimica',     name:'Química',     icon:'quimica',     color:'#0e3c21', tint:'#E1EFE6', desc:'Reacciones, elementos y laboratorio.',          folders:['Guías','Exámenes corregidos'] },
-  { id:'estadistica', name:'Estadística', icon:'estadistica', color:'#060428', tint:'#DCE8F0',  desc:'Datos, probabilidad y análisis.',               folders:['Talleres','Guías','Exámenes corregidos'] },
-  { id:'fisica',      name:'Física',      icon:'fisica',      color:'#0e3c21', tint:'#DFEBF2', desc:'Movimiento, energía y materia.',                folders:['Guías','Exámenes corregidos'] },
-  { id:'biologia',    name:'Biología',    icon:'biologia',    color:'#060428', tint:'#E3F0E8', desc:'Célula, genética y vida.',                      folders:['Guías','Exámenes corregidos'] },
-  { id:'arte',      name:'Arte',      icon:'arte',      color:'#0e3c21', tint:'#DFEBF2', desc:'Dibujo, color y expresión artística.',                folders:['Exámenes corregidos'] },
+  { id:'calculo',     name:'Cálculo',     icon:'calculo',     color:'#eca869', tint:'#f3dba8', desc:'Funciones, derivadas, integrales y más.',      folders:['Guías','Talleres','Exámenes corregidos','Diapositivas'] },
+  { id:'sociales',    name:'Sociales',    icon:'sociales',    color:'#cf4c4c', tint:'#f3bcc3', desc:'Historia, geografía y sociedad.',               folders:['Guías','Exámenes corregidos'] },
+  { id:'economia',    name:'Economía',    icon:'economia',    color:'#eca869', tint:'#f3dba8', desc:'Fundamentos de mercado y finanzas.',            folders:['Guías','Exámenes corregidos'] },
+  { id:'ingles',      name:'Inglés',      icon:'ingles',      color:'#cf4c4c', tint:'#f3bcc3', desc:'Comprensión y práctica del idioma.',            folders:['Exámenes corregidos'] },
+  { id:'filosofia',   name:'Filosofía',   icon:'filosofia',   color:'#eca869', tint:'#f3dba8', desc:'Pensamiento crítico y ética.',                  folders:['Guías'] },
+  { id:'deporte',     name:'Deporte',     icon:'deporte',     color:'#cf4c4c', tint:'#f3bcc3', desc:'Educación física y bienestar.',                 folders:['Guías'] },
+  { id:'lenguaje',    name:'Lenguaje',    icon:'lenguaje',    color:'#eca869', tint:'#f3dba8', desc:'Comprensión lectora y escritura.',              folders:['Guías','Exámenes corregidos'] },
+  { id:'quimica',     name:'Química',     icon:'quimica',     color:'#cf4c4c', tint:'#f3bcc3', desc:'Reacciones, elementos y laboratorio.',          folders:['Guías','Exámenes corregidos'] },
+  { id:'estadistica', name:'Estadística', icon:'estadistica', color:'#eca869', tint:'#f3dba8',  desc:'Datos, probabilidad y análisis.',               folders:['Talleres','Guías','Exámenes corregidos'] },
+  { id:'fisica',      name:'Física',      icon:'fisica',      color:'#cf4c4c', tint:'#f3bcc3', desc:'Movimiento, energía y materia.',                folders:['Guías','Exámenes corregidos'] },
+  { id:'biologia',    name:'Biología',    icon:'biologia',    color:'#eca869', tint:'#f3dba8', desc:'Célula, genética y vida.',                      folders:['Guías','Exámenes corregidos'] },
+  { id:'arte',      name:'Arte',      icon:'arte',      color:'#cf4c4c', tint:'#f3bcc3', desc:'Dibujo, color y expresión artística.',                folders:['Exámenes corregidos'] },
 
 ];
 
