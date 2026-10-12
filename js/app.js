@@ -146,8 +146,8 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de fundamentos en calculo diferencial',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/calculo-derivada.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de limite y continuidad',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/limite-continuidad-1.pdf' },
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de Funciones Trascendentales',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/Derivadas_Trascendentales.pdf' },
+  { subject: 'arte', folder: 'Exámenes corregidos', period: 'Periodo 4', title: 'Examen de Tipos de arte', file: 'assets/pdf/Arte/Exámenes corregidos/Periodo-4/examen-tiposdearte.pdf' },
 
-  
 ];
 
 /* =====================================================================
