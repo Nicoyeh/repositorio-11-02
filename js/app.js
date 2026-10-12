@@ -148,6 +148,7 @@ const DOCUMENTS = [
   { subject:'calculo',     folder:'Diapositivas',         period:'Periodo 4', title:'Diapositivas de Funciones Trascendentales',           file:'assets/pdf/Calculo/Diapositivass/Periodo-4/Derivadas_Trascendentales.pdf' },
   { subject: 'arte', folder: 'Exámenes corregidos', period: 'Periodo 4', title: 'Examen de Tipos de arte', file: 'assets/pdf/Arte/Exámenes corregidos/Periodo-4/examen-tiposdearte.pdf' },
   { subject:'estadistica',     folder:'Guías',         period:'Periodo 4', title:'Uso de tablas de probabilidad binomial',           file:'assets/pdf/Estadistica/Guias/Periodo-4/tablas_binomiales.pdf' },
+  { subject:'sociales',      folder:'Guías',                period:'Periodo 4', title:'La conformación del Estado Israel',             file:'assets/pdf/Sociales/Guias/Periodo-4/conformacion_estado_israel.pdf'},
 
 ];
 
